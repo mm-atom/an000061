@@ -1,2 +1,4 @@
-export default function fun() {
+
+export default function todo() {
+	// todo
 }
