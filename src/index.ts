@@ -23,7 +23,7 @@ export default {
 };
 
 function getEncrypter() {
-	if (!decrypter) {
+	if (!encrypter) {
 		const iv = process.env.FILE_SECRET!;
 		const key = createHash('md5').update(iv).digest('hex');	// 长度32
 		const algorithm = 'aes-256-gcm';	// 'aes-128-gcm' | 'aes-192-gcm' | 'aes-256-gcm'
