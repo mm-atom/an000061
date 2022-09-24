@@ -44,9 +44,9 @@
 		"access": "public",
 		"registry": "https://registry.npmjs.org"
 	},
-	"dependencies": {},
+	"dependencies": { },
 	"devDependencies": {
-		"@mmstudio/config": "latest",
+		"@next/env": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
@@ -58,6 +58,6 @@
 		"typescript": "next"
 	},
 	"peerDependencies": {
-		"@mmstudio/config": "*"
+		"@next/env": "*"
 	}
 }
