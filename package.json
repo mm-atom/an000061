@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000061",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "对象加密",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
