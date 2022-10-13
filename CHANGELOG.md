@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/mm-atom/an000061/compare/v2.1.0...v2.1.1) (2022-10-13)
+
+
+### Bug Fixes
+
+* unknow error ([3c1246e](https://github.com/mm-atom/an000061/commit/3c1246e4bbd82e7185052662e8f44196ab08be4f))
+
 ## [2.1.0](https://github.com/mm-atom/an000061/compare/v2.0.2...v2.1.0) (2022-10-13)
 
 
