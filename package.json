@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000061",
-	"version": "2.0.2",
+	"version": "2.1.0",
 	"description": "对象加密",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
@@ -44,7 +44,7 @@
 		"access": "public",
 		"registry": "https://registry.npmjs.org"
 	},
-	"dependencies": { },
+	"dependencies": {},
 	"devDependencies": {
 		"@next/env": "latest",
 		"@types/node": "latest",
