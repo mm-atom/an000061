@@ -9,7 +9,7 @@
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
 		"build": "yarn clean && yarn lint && yarn compile",
-		"release": "yarn build && np"
+		"release": "yarn build && standard-version && git push --follow-tags origin main && npm publish"
 	},
 	"repository": {
 		"type": "https+git",
@@ -44,7 +44,7 @@
 		"access": "public",
 		"registry": "https://registry.npmjs.org"
 	},
-	"dependencies": {},
+	"dependencies": { },
 	"devDependencies": {
 		"@next/env": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
@@ -54,7 +54,7 @@
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
-		"np": "latest",
+		"standard-version": "latest",
 		"typescript": "next"
 	},
 	"peerDependencies": {
